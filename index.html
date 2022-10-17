@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/main.min.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<!-- Header section -->
+		<header class="header header__page">
+			<div class="container header__group">
+				<nav class="header__nav">
+					<a class="header__logo" href="#logo">
+						<img src="./images/logo.png" alt="ice" width="60" height="65"
+					/></a>
+					<ul class="header__list list">
+						<li class="header__item">
+							<a class="header__link link" href="#home">Home</a>
+						</li>
+						<li class="header__item">
+							<a class="header__link link" href="#how">How it’s made? </a>
+							<!-- <svg width="24" height="33">
+								<use href="./images/icons.svg#cursor"></use>
+							</svg> -->
+						</li>
+						<li class="header__item">
+							<a class="header__link link" href="#our-products">Our products</a>
+						</li>
+						<li class="header__item">
+							<a class="header__link link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</nav>
+				<div>
+					<button class="header__btn" type="button">
+						Buy now
+						<svg class="header__btn-icon" width="12" height="12">
+							<use href="./images/icons.svg#next"></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</header>
+		<!--HERO-->
+		<section class="header-hero">
+			<div class="header-hero__points container">
+				<div>
+					<h1 class="header-hero__title">ice cream made with passion</h1>
+					<ul class="header-hero__list">
+						<li class="header-hero__all">
+							<a
+								class="header-hero__link"
+								href="#technology"
+								target="_blank"
+								rel="noopener noreferrer"
+								>Products</a
+							>
+						</li>
+						<li class="header-hero__all">
+							<a
+								class="header-hero__link-a"
+								href="#technology"
+								target="_blank"
+								rel="noopener noreferrer"
+								>How it’s made?</a
+							>
+						</li>
+					</ul>
+					<div class="header-hero__aside">
+						<ul class="header-hero__desc list">
+							<p class="header-hero__item">16</p>
+							<p class="header-hero__text">cafes</p>
+						</ul>
+						<ul class="header-hero__desc list">
+							<p class="header-hero__item">23</p>
+							<p class="header-hero__text">food trucks</p>
+						</ul>
+					</div>
+
+					<picture>
+						<source
+							media="(min-width: 1200px)"
+							srcset="
+								./images/ice-smail-desktop_desk-ice@1x.png 1x,
+								./images/ice-smail-desktop_desk-ice@2x.png 2x
+							"
+						/>
+						<source
+							media="(min-width: 768px)"
+							srcset="
+								./images/ice-smail-tablet_tab-ice@1x.png 1x,
+								./images/ice-smail-tablet_tab-ice@2x.png 2x
+							"
+						/>
+						<source
+							media="(max-width: 767px)"
+							srcset="
+								./images/ice-smail-mobile_mob-ice@1x.png 1x,
+								./images/ice-smail-mobile_mob-ice@2x.png 2x
+							"
+						/>
+						<img
+							class="header-hero__img"
+							src="./images/ice-smail-mobile_mob-ice@1x.png"
+							alt="ice-smail"
+						/>
+					</picture>
+					<div class="header-hero__details">
+						<picture>
+							<source
+								media="(min-width: 1200px)"
+								srcset="
+									./images/ice-cream_desk-ice-cream@1x.png 1x,
+									./images/ice-cream_desk-ice-cream@2x.png 2x
+								"
+							/>
+							<source
+								media="(min-width: 768px)"
+								srcset="
+									./images/ice-cream_tab-ice-cream@1x.png 1x,
+									./images/ice-cream_tab-ice-cream@2x.png 2x
+								"
+							/>
+							<img
+								class="header-hero__details-img"
+								src="./images/ice-cream_desk-ice-cream@1x.png"
+								alt="ice-cream"
+							/>
+						</picture>
+						<div>
+							<p class="header-hero__subtitle">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et
+							</p>
+							<svg class="header-hero__icon" width="40" height="10">
+								<use href="./images/icons.svg#arrow"></use>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
